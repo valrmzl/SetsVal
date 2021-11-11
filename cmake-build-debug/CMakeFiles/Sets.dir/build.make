@@ -93,19 +93,40 @@ CMakeFiles\Sets.dir\Sets.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Sets.dir\Sets.c.s /c "C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\Sets.c"
 <<
 
+CMakeFiles\Sets.dir\stack.c.obj: CMakeFiles\Sets.dir\flags.make
+CMakeFiles\Sets.dir\stack.c.obj: ..\stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Sets.dir/stack.c.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\Sets.dir\stack.c.obj /FdCMakeFiles\Sets.dir\ /FS -c "C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\stack.c"
+<<
+
+CMakeFiles\Sets.dir\stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sets.dir/stack.c.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Sets.dir\stack.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\stack.c"
+<<
+
+CMakeFiles\Sets.dir\stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sets.dir/stack.c.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\Sets.dir\stack.c.s /c "C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\stack.c"
+<<
+
 # Object files for target Sets
 Sets_OBJECTS = \
 "CMakeFiles\Sets.dir\main.c.obj" \
-"CMakeFiles\Sets.dir\Sets.c.obj"
+"CMakeFiles\Sets.dir\Sets.c.obj" \
+"CMakeFiles\Sets.dir\stack.c.obj"
 
 # External object files for target Sets
 Sets_EXTERNAL_OBJECTS =
 
 Sets.exe: CMakeFiles\Sets.dir\main.c.obj
 Sets.exe: CMakeFiles\Sets.dir\Sets.c.obj
+Sets.exe: CMakeFiles\Sets.dir\stack.c.obj
 Sets.exe: CMakeFiles\Sets.dir\build.make
 Sets.exe: CMakeFiles\Sets.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Sets.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Sets.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Sets.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Sets.dir\objects1.rsp @<<
  /out:Sets.exe /implib:Sets.lib /pdb:"C:\Users\luax2\Documents\3 sem\Memoria\Parcial 1\Sets\cmake-build-debug\Sets.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

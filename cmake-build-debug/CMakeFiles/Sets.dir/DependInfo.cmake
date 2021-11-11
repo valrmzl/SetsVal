@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/Sets.c" "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/cmake-build-debug/CMakeFiles/Sets.dir/Sets.c.obj"
   "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/main.c" "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/cmake-build-debug/CMakeFiles/Sets.dir/main.c.obj"
+  "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/stack.c" "C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/cmake-build-debug/CMakeFiles/Sets.dir/stack.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

@@ -3,7 +3,12 @@
 
 CMakeFiles\Sets.dir\Sets.c.obj: ..\Sets.c
 CMakeFiles\Sets.dir\Sets.c.obj: ..\Sets.h
+CMakeFiles\Sets.dir\Sets.c.obj: ..\stack.h
 
 CMakeFiles\Sets.dir\main.c.obj: ..\Sets.h
 CMakeFiles\Sets.dir\main.c.obj: ..\main.c
+CMakeFiles\Sets.dir\main.c.obj: ..\stack.h
+
+CMakeFiles\Sets.dir\stack.c.obj: ..\stack.c
+CMakeFiles\Sets.dir\stack.c.obj: ..\stack.h
 

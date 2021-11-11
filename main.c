@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "Sets.h"
+#include "stack.h"
 
 int main() {
     printf("Sets con arboles\n");
@@ -10,6 +11,9 @@ int main() {
     add(manzano,6);
     add(manzano,1);
     printTree(manzano);
+    printf("\n");
+    printf("con iterativo:\n");
+    printTreeIter(manzano);
 
 
     return 0;

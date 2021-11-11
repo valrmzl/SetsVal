@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/Sets.c
+C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/Sets.h
+
+C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/main.c
 stdio.h
--
-stdlib.h
 -
 Sets.h
 C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/Sets.h
+stack.h
+C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/stack.h
 
-C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/Sets.h
+C:/Users/luax2/Documents/3 sem/Memoria/Parcial 1/Sets/stack.h
 

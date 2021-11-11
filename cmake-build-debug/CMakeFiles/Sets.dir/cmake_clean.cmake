@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sets.dir/Sets.c.obj"
   "CMakeFiles/Sets.dir/main.c.obj"
+  "CMakeFiles/Sets.dir/stack.c.obj"
   "Sets.exe"
   "Sets.exe.manifest"
   "Sets.lib"

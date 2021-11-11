@@ -18,5 +18,6 @@ void add(Tree *tree, int n);
 void printTreeRec(Node *root);
 
 void printTree(Tree *tree);
+void printTreeIter(Tree *tree);
 
 #endif //SETS_SETS_H

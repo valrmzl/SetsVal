@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Sets.h"
+#include "stack.h"
 
 
 struct node
@@ -68,14 +69,14 @@ void add(Tree *tree, int n)
     }
 }
 
-void printTreeRec(Node *root)
+void printTreeRec(Node *currentNode)
 {
-    if(root==NULL)
+    if(currentNode==NULL)
         return;
 
-    printTreeRec(root->left);
-    printf("[%d] ",root->value);
-    printTreeRec(root->right);
+    printTreeRec(currentNode->left);
+    printf("[%d] ",currentNode->value);
+    printTreeRec(currentNode->right);
 }
 
 
@@ -83,5 +84,25 @@ void printTree(Tree *tree)
 {
     printTreeRec(tree->root);
 }
+
+
+void printTreeIter(Tree *tree)
+{
+    STACK *toVisit=newStack();
+    Node *current=tree->root;
+
+    while(peek(toVisit)!=NULL || current)
+    {
+        while (current!=NULL)
+        {
+            push(toVisit,current);
+            current=current->left;
+        }
+        current= pop(toVisit);
+        printf("[%d] ",current->value);
+        current=current->right;
+    }
+}
+
 
 
