@@ -2,8 +2,8 @@
 // Created by luax2 on 06/11/2021.
 //
 
-#ifndef SETS_SETS_H
-#define SETS_SETS_H
+#ifndef SETS_BST_H
+#define SETS_BST_H
 
 typedef struct node Node;
 typedef struct tree Tree;
@@ -20,4 +20,4 @@ void printTreeRec(Node *root);
 void printTree(Tree *tree);
 void printTreeIter(Tree *tree);
 
-#endif //SETS_SETS_H
+#endif //SETS_BST_H

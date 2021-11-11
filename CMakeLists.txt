@@ -3,4 +3,4 @@ project(Sets C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Sets main.c Sets.c Sets.h stack.c stack.h)
+add_executable(Sets main.c bst.c bst.h stack.c stack.h)
